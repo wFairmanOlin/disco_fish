@@ -1,0 +1,1630 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR031
+U 1 1 60D65006
+P 8850 1100
+F 0 "#PWR031" H 8850 850 50  0001 C CNN
+F 1 "GND" H 8855 927 50  0000 C CNN
+F 2 "" H 8850 1100 50  0001 C CNN
+F 3 "" H 8850 1100 50  0001 C CNN
+	1    8850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 60D651CA
+P 9100 1950
+F 0 "#PWR033" H 9100 1700 50  0001 C CNN
+F 1 "GND" H 9105 1777 50  0000 C CNN
+F 2 "" H 9100 1950 50  0001 C CNN
+F 3 "" H 9100 1950 50  0001 C CNN
+	1    9100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:C_0u1 C5
+U 1 1 60D67C78
+P 8600 1100
+F 0 "C5" V 8348 1100 50  0000 C CNN
+F 1 "C_0u1" V 8439 1100 50  0000 C CNN
+F 2 "personal:C_0805" H 8638 950 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677" H 8625 1200 50  0001 C CNN
+F 4 "478-3352-1-ND" H 8600 1100 60  0001 C CNN "DPN"
+	1    8600 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L personal:R_10K R18
+U 1 1 60D6C837
+P 7200 3050
+F 0 "R18" H 7200 3257 50  0000 C CNN
+F 1 "R_10K" H 7200 3166 50  0000 C CNN
+F 2 "personal:R_0805" H 6400 3200 50  0001 C CNN
+F 3 "" H 6900 3550 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 6550 3300 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 7200 3050 50  0001 C CNN "MPN"
+	1    7200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:C_0u1 C6
+U 1 1 60D6D661
+P 9100 1800
+F 0 "C6" H 8985 1754 50  0000 R CNN
+F 1 "C_0u1" H 8985 1845 50  0000 R CNN
+F 2 "personal:C_0805" H 9138 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677" H 9125 1900 50  0001 C CNN
+F 4 "478-3352-1-ND" H 9100 1800 60  0001 C CNN "DPN"
+	1    9100 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR021
+U 1 1 60D6E1C8
+P 5700 1300
+F 0 "#PWR021" H 5700 1150 50  0001 C CNN
+F 1 "VCC" H 5715 1473 50  0000 C CNN
+F 2 "" H 5700 1300 50  0001 C CNN
+F 3 "" H 5700 1300 50  0001 C CNN
+	1    5700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR029
+U 1 1 60D6E65E
+P 8350 1100
+F 0 "#PWR029" H 8350 950 50  0001 C CNN
+F 1 "VCC" H 8365 1273 50  0000 C CNN
+F 2 "" H 8350 1100 50  0001 C CNN
+F 3 "" H 8350 1100 50  0001 C CNN
+	1    8350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1100 8850 1100
+Wire Wire Line
+	8300 1250 8350 1250
+Connection ~ 8350 1250
+Wire Wire Line
+	8350 1250 8400 1250
+$Comp
+L power:GND #PWR028
+U 1 1 60D87408
+P 7250 2200
+F 0 "#PWR028" H 7250 1950 50  0001 C CNN
+F 1 "GND" H 7255 2027 50  0000 C CNN
+F 2 "" H 7250 2200 50  0001 C CNN
+F 3 "" H 7250 2200 50  0001 C CNN
+	1    7250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2100 7000 2000
+$Comp
+L personal:C_10p C3
+U 1 1 60D8600F
+P 6850 2000
+F 0 "C3" V 7100 2000 50  0000 C CNN
+F 1 "C_10p" V 7000 2000 50  0000 C CNN
+F 2 "personal:C_0805" H 6900 2500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012007010.pdf" H 6875 2100 50  0001 C CNN
+F 4 "399-7994-1-ND" H 6950 2700 60  0001 C CNN "DPN"
+F 5 "885012007010" H 6950 2600 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012007010/5453669" H 6800 2800 50  0001 C CNN "PurchasingLink"
+	1    6850 2000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7000 2400 7000 2300
+Connection ~ 6700 2400
+Wire Wire Line
+	6700 2200 6850 2200
+Wire Wire Line
+	6700 2400 6700 2200
+$Comp
+L personal:C_10p C4
+U 1 1 60D83EAF
+P 6850 2400
+F 0 "C4" V 6600 2450 50  0000 C CNN
+F 1 "C_10p" V 6700 2500 50  0000 C CNN
+F 2 "personal:C_0805" H 6900 2900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012007010.pdf" H 6875 2500 50  0001 C CNN
+F 4 "399-7994-1-ND" H 6950 3100 60  0001 C CNN "DPN"
+F 5 "885012007010" H 6950 3000 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012007010/5453669" H 6800 3200 50  0001 C CNN "PurchasingLink"
+	1    6850 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L personal:ECS-160-8-37-CWY-TR Y1
+U 1 1 60D7F0D0
+P 7000 2200
+F 0 "Y1" V 7100 2300 50  0000 L CNN
+F 1 "ECS-160-8-37-CWY-TR" H 6550 2700 50  0001 L CNN
+F 2 "personal:7M-16.000MAAJ-T" H 7050 3050 50  0001 C CNN
+F 3 "https://ecsxtal.com/store/pdf/ecx-1637.pdf" H 7050 3050 50  0001 C CNN
+F 4 "XC2866CT-ND" H 7050 2800 60  0001 C CNN "DPN"
+F 5 "ECS-160-8-37-CWY-TR" H 7050 2900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/ecs-inc/ECS-160-8-37-CWY-TR/9597500" H 7500 3175 60  0001 C CNN "PurchasingLink"
+	1    7000 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 60D6ACFD
+P 6700 2400
+F 0 "#PWR026" H 6700 2150 50  0001 C CNN
+F 1 "GND" H 6705 2227 50  0000 C CNN
+F 2 "" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2000 6700 2200
+Connection ~ 6700 2200
+Wire Wire Line
+	7150 2200 7250 2200
+Wire Wire Line
+	7000 2000 7350 2000
+Wire Wire Line
+	7350 2000 7350 2150
+Wire Wire Line
+	7350 2150 7800 2150
+Connection ~ 7000 2000
+Wire Wire Line
+	7000 2400 7350 2400
+Wire Wire Line
+	7350 2400 7350 2250
+Wire Wire Line
+	7350 2250 7800 2250
+Connection ~ 7000 2400
+$Comp
+L power:VCC #PWR027
+U 1 1 60D8AF65
+P 6900 3050
+F 0 "#PWR027" H 6900 2900 50  0001 C CNN
+F 1 "VCC" H 6915 3223 50  0000 C CNN
+F 2 "" H 6900 3050 50  0001 C CNN
+F 3 "" H 6900 3050 50  0001 C CNN
+	1    6900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR032
+U 1 1 60D8B591
+P 9100 1450
+F 0 "#PWR032" H 9100 1300 50  0001 C CNN
+F 1 "VCC" H 9115 1623 50  0000 C CNN
+F 2 "" H 9100 1450 50  0001 C CNN
+F 3 "" H 9100 1450 50  0001 C CNN
+	1    9100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1550 9100 1550
+Wire Wire Line
+	9100 1550 9100 1450
+Wire Wire Line
+	9100 1550 9100 1650
+Connection ~ 9100 1550
+$Comp
+L personal:Conn_02x03 J10
+U 1 1 60D8F34D
+P 2950 1450
+F 0 "J10" H 3000 1767 50  0000 C CNN
+F 1 "Conn_02x03" H 3000 1676 50  0000 C CNN
+F 2 "personal:TSW-103-07-F-D" H 3850 1700 50  0001 C CNN
+F 3 "~" H 2950 1450 50  0001 C CNN
+F 4 "SAM10846-ND" H 3400 1900 50  0001 C CNN "DPN"
+F 5 "TSW-103-07-F-D" H 3500 1800 50  0001 C CNN "MPN"
+	1    2950 1450
+	1    0    0    -1  
+$EndComp
+Text Label 2750 1350 2    50   ~ 0
+MISO
+Text Label 2750 1450 2    50   ~ 0
+SCK
+Text Label 2750 1550 2    50   ~ 0
+~RESET
+Text Label 7600 3050 2    50   ~ 0
+~RESET
+Wire Wire Line
+	6900 3050 7050 3050
+Wire Wire Line
+	3250 1350 3300 1350
+Wire Wire Line
+	3300 1350 3300 1300
+$Comp
+L power:VCC #PWR03
+U 1 1 60D927DE
+P 3300 1300
+F 0 "#PWR03" H 3300 1150 50  0001 C CNN
+F 1 "VCC" H 3315 1473 50  0000 C CNN
+F 2 "" H 3300 1300 50  0001 C CNN
+F 3 "" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1550 3300 1550
+Wire Wire Line
+	3300 1550 3300 1600
+$Comp
+L power:GND #PWR04
+U 1 1 60D9364B
+P 3300 1600
+F 0 "#PWR04" H 3300 1350 50  0001 C CNN
+F 1 "GND" H 3305 1427 50  0000 C CNN
+F 2 "" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+Text Label 3250 1450 0    50   ~ 0
+MOSI
+Text Notes 2550 1000 0    50   ~ 0
+PROGRAMMING HEADER
+Wire Wire Line
+	8450 1100 8350 1100
+$Comp
+L power:GND #PWR030
+U 1 1 60D97D23
+P 8400 4250
+F 0 "#PWR030" H 8400 4000 50  0001 C CNN
+F 1 "GND" H 8405 4077 50  0000 C CNN
+F 2 "" H 8400 4250 50  0001 C CNN
+F 3 "" H 8400 4250 50  0001 C CNN
+	1    8400 4250
+	1    0    0    -1  
+$EndComp
+Text Label 7800 2050 2    50   ~ 0
+SCK
+Text Label 7800 1950 2    50   ~ 0
+MISO
+Text Label 7800 1850 2    50   ~ 0
+MOSI
+$Comp
+L personal:L7805 U1
+U 1 1 60D9D3CC
+P 4850 1300
+F 0 "U1" H 4850 1542 50  0000 C CNN
+F 1 "L7805" H 4850 1451 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 4075 1950 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4850 1250 50  0001 C CNN
+F 4 "497-7255-1-ND" H 4750 1750 50  0001 C CNN "DPN"
+F 5 "L7805CDT-TR" H 4800 1650 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CDT-TR/1038234" H 5300 1850 50  0001 C CNN "PurchasingLink"
+	1    4850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 60D9F822
+P 4850 1700
+F 0 "#PWR014" H 4850 1450 50  0001 C CNN
+F 1 "GND" H 4855 1527 50  0000 C CNN
+F 2 "" H 4850 1700 50  0001 C CNN
+F 3 "" H 4850 1700 50  0001 C CNN
+	1    4850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1700 4850 1600
+Text Label 4350 1300 2    50   ~ 0
+12V
+$Comp
+L personal:C_0u1 C2
+U 1 1 60DA0E67
+P 5350 1450
+F 0 "C2" H 5465 1496 50  0000 L CNN
+F 1 "C_0u1" H 5465 1405 50  0000 L CNN
+F 2 "personal:C_0805" H 5388 1300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677" H 5375 1550 50  0001 C CNN
+F 4 "478-3352-1-ND" H 5350 1450 60  0001 C CNN "DPN"
+	1    5350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1300 5350 1300
+Connection ~ 5350 1300
+Wire Wire Line
+	5350 1300 5700 1300
+$Comp
+L power:GND #PWR016
+U 1 1 60DA1AEA
+P 5350 1600
+F 0 "#PWR016" H 5350 1350 50  0001 C CNN
+F 1 "GND" H 5355 1427 50  0000 C CNN
+F 2 "" H 5350 1600 50  0001 C CNN
+F 3 "" H 5350 1600 50  0001 C CNN
+	1    5350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:C_0u33 C1
+U 1 1 60DA39EA
+P 4450 1450
+F 0 "C1" H 4335 1404 50  0000 R CNN
+F 1 "C_0u33" H 4335 1495 50  0000 R CNN
+F 2 "personal:C_0805" H 4400 2000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677" H 4475 1550 50  0001 C CNN
+F 4 "1276-1123-1-ND" H 4450 2150 60  0001 C CNN "DPN"
+F 5 "CL21B334KBFNNNE" H 4350 2250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B334KBFNNNE/3886781" H 4400 1900 50  0001 C CNN "PurchasingLink"
+	1    4450 1450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4350 1300 4450 1300
+Connection ~ 4450 1300
+Wire Wire Line
+	4450 1300 4550 1300
+$Comp
+L power:GND #PWR09
+U 1 1 60DA4979
+P 4450 1600
+F 0 "#PWR09" H 4450 1350 50  0001 C CNN
+F 1 "GND" H 4455 1427 50  0000 C CNN
+F 2 "" H 4450 1600 50  0001 C CNN
+F 3 "" H 4450 1600 50  0001 C CNN
+	1    4450 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 4550 1000 0    50   ~ 0
+LINEAR REGULATOR
+Wire Wire Line
+	7350 3050 7800 3050
+Text Label 7800 3250 2    50   ~ 0
+gate0
+$Comp
+L personal:NVS4409NT1G Q3
+U 1 1 60DD03C0
+P 3850 6350
+F 0 "Q3" H 4000 6350 50  0000 L CNN
+F 1 "NVS4409NT1G" H 3850 6850 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 3850 7300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 3850 6350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 3900 7200 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 3750 7000 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 3850 7100 50  0001 C CNN "MPN"
+	1    3850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:R_10K R3
+U 1 1 60DD03C8
+P 3600 6500
+F 0 "R3" V 3550 6650 50  0000 R CNN
+F 1 "R_10K" V 3650 6800 50  0000 R CNN
+F 2 "personal:R_0805" H 2800 6650 50  0001 C CNN
+F 3 "" H 3300 7000 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 2950 6750 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 3600 6500 50  0001 C CNN "MPN"
+	1    3600 6500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3600 6650 3850 6650
+Wire Wire Line
+	3850 6650 3850 6550
+$Comp
+L power:GND #PWR07
+U 1 1 60DD03D0
+P 3850 6650
+F 0 "#PWR07" H 3850 6400 50  0001 C CNN
+F 1 "GND" H 3855 6477 50  0000 C CNN
+F 2 "" H 3850 6650 50  0001 C CNN
+F 3 "" H 3850 6650 50  0001 C CNN
+	1    3850 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 6650
+Wire Wire Line
+	3600 6350 3500 6350
+Connection ~ 3600 6350
+Wire Wire Line
+	3850 6150 3850 6100
+Wire Wire Line
+	3850 6100 3750 6100
+Text Label 3500 6350 2    50   ~ 0
+gate4
+Text Label 3750 6100 2    50   ~ 0
+drain4
+$Comp
+L personal:NVS4409NT1G Q7
+U 1 1 60DD03E0
+P 4750 6350
+F 0 "Q7" H 4900 6350 50  0000 L CNN
+F 1 "NVS4409NT1G" H 4750 6850 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 4750 7300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 4750 6350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 4800 7200 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 4650 7000 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 4750 7100 50  0001 C CNN "MPN"
+	1    4750 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:R_10K R7
+U 1 1 60DD03E8
+P 4500 6500
+F 0 "R7" V 4450 6650 50  0000 R CNN
+F 1 "R_10K" V 4550 6800 50  0000 R CNN
+F 2 "personal:R_0805" H 3700 6650 50  0001 C CNN
+F 3 "" H 4200 7000 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 3850 6750 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 4500 6500 50  0001 C CNN "MPN"
+	1    4500 6500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4500 6650 4750 6650
+Wire Wire Line
+	4750 6650 4750 6550
+$Comp
+L power:GND #PWR012
+U 1 1 60DD03F0
+P 4750 6650
+F 0 "#PWR012" H 4750 6400 50  0001 C CNN
+F 1 "GND" H 4755 6477 50  0000 C CNN
+F 2 "" H 4750 6650 50  0001 C CNN
+F 3 "" H 4750 6650 50  0001 C CNN
+	1    4750 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 6650
+Wire Wire Line
+	4500 6350 4400 6350
+Connection ~ 4500 6350
+Wire Wire Line
+	4750 6150 4750 6100
+Wire Wire Line
+	4750 6100 4650 6100
+Text Label 4400 6350 2    50   ~ 0
+gate5
+Text Label 4650 6100 2    50   ~ 0
+drain5
+$Comp
+L personal:NVS4409NT1G Q11
+U 1 1 60DD0400
+P 5650 6350
+F 0 "Q11" H 5800 6350 50  0000 L CNN
+F 1 "NVS4409NT1G" H 5650 6850 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 5650 7300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 5650 6350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 5700 7200 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 5550 7000 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 5650 7100 50  0001 C CNN "MPN"
+	1    5650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:R_10K R12
+U 1 1 60DD0408
+P 5400 6500
+F 0 "R12" V 5350 6650 50  0000 R CNN
+F 1 "R_10K" V 5450 6800 50  0000 R CNN
+F 2 "personal:R_0805" H 4600 6650 50  0001 C CNN
+F 3 "" H 5100 7000 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 4750 6750 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 5400 6500 50  0001 C CNN "MPN"
+	1    5400 6500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5400 6650 5650 6650
+Wire Wire Line
+	5650 6650 5650 6550
+$Comp
+L power:GND #PWR019
+U 1 1 60DD0410
+P 5650 6650
+F 0 "#PWR019" H 5650 6400 50  0001 C CNN
+F 1 "GND" H 5655 6477 50  0000 C CNN
+F 2 "" H 5650 6650 50  0001 C CNN
+F 3 "" H 5650 6650 50  0001 C CNN
+	1    5650 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 6650
+Wire Wire Line
+	5400 6350 5300 6350
+Connection ~ 5400 6350
+Wire Wire Line
+	5650 6150 5650 6100
+Wire Wire Line
+	5650 6100 5550 6100
+Text Label 5300 6350 2    50   ~ 0
+gate6
+Text Label 5550 6100 2    50   ~ 0
+drain6
+$Comp
+L personal:NVS4409NT1G Q15
+U 1 1 60DD0420
+P 6550 6350
+F 0 "Q15" H 6700 6350 50  0000 L CNN
+F 1 "NVS4409NT1G" H 6550 6850 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 6550 7300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 6550 6350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 6600 7200 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 6450 7000 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 6550 7100 50  0001 C CNN "MPN"
+	1    6550 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:R_10K R16
+U 1 1 60DD0428
+P 6300 6500
+F 0 "R16" V 6250 6650 50  0000 R CNN
+F 1 "R_10K" V 6350 6800 50  0000 R CNN
+F 2 "personal:R_0805" H 5500 6650 50  0001 C CNN
+F 3 "" H 6000 7000 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 5650 6750 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 6300 6500 50  0001 C CNN "MPN"
+	1    6300 6500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6300 6650 6550 6650
+Wire Wire Line
+	6550 6650 6550 6550
+$Comp
+L power:GND #PWR024
+U 1 1 60DD0430
+P 6550 6650
+F 0 "#PWR024" H 6550 6400 50  0001 C CNN
+F 1 "GND" H 6555 6477 50  0000 C CNN
+F 2 "" H 6550 6650 50  0001 C CNN
+F 3 "" H 6550 6650 50  0001 C CNN
+	1    6550 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 6650
+Wire Wire Line
+	6300 6350 6200 6350
+Connection ~ 6300 6350
+Wire Wire Line
+	6550 6150 6550 6100
+Wire Wire Line
+	6550 6100 6450 6100
+Text Label 6200 6350 2    50   ~ 0
+gate7
+Text Label 6450 6100 2    50   ~ 0
+drain7
+$Comp
+L personal:NVS4409NT1G Q2
+U 1 1 60DE2112
+P 3850 5500
+F 0 "Q2" H 4000 5500 50  0000 L CNN
+F 1 "NVS4409NT1G" H 3850 6000 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 3850 6450 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 3850 5500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 3900 6350 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 3750 6150 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 3850 6250 50  0001 C CNN "MPN"
+	1    3850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:R_10K R2
+U 1 1 60DE211A
+P 3600 5650
+F 0 "R2" V 3550 5800 50  0000 R CNN
+F 1 "R_10K" V 3650 5950 50  0000 R CNN
+F 2 "personal:R_0805" H 2800 5800 50  0001 C CNN
+F 3 "" H 3300 6150 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 2950 5900 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 3600 5650 50  0001 C CNN "MPN"
+	1    3600 5650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3600 5800 3850 5800
+Wire Wire Line
+	3850 5800 3850 5700
+$Comp
+L power:GND #PWR06
+U 1 1 60DE2122
+P 3850 5800
+F 0 "#PWR06" H 3850 5550 50  0001 C CNN
+F 1 "GND" H 3855 5627 50  0000 C CNN
+F 2 "" H 3850 5800 50  0001 C CNN
+F 3 "" H 3850 5800 50  0001 C CNN
+	1    3850 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 5800
+Wire Wire Line
+	3600 5500 3500 5500
+Connection ~ 3600 5500
+Wire Wire Line
+	3850 5300 3850 5250
+Wire Wire Line
+	3850 5250 3750 5250
+Text Label 3500 5500 2    50   ~ 0
+gate8
+Text Label 3750 5250 2    50   ~ 0
+drain8
+Text Label 6450 4400 2    50   ~ 0
+drain15
+Text Label 6200 4650 2    50   ~ 0
+gate15
+Wire Wire Line
+	6550 4400 6450 4400
+Wire Wire Line
+	6550 4450 6550 4400
+Connection ~ 6300 4650
+Wire Wire Line
+	6300 4650 6200 4650
+Connection ~ 6550 4950
+$Comp
+L power:GND #PWR022
+U 1 1 60DE2222
+P 6550 4950
+F 0 "#PWR022" H 6550 4700 50  0001 C CNN
+F 1 "GND" H 6555 4777 50  0000 C CNN
+F 2 "" H 6550 4950 50  0001 C CNN
+F 3 "" H 6550 4950 50  0001 C CNN
+	1    6550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4950 6550 4850
+Wire Wire Line
+	6300 4950 6550 4950
+$Comp
+L personal:R_10K R14
+U 1 1 60DE221A
+P 6300 4800
+F 0 "R14" V 6250 4950 50  0000 R CNN
+F 1 "R_10K" V 6350 5100 50  0000 R CNN
+F 2 "personal:R_0805" H 5500 4950 50  0001 C CNN
+F 3 "" H 6000 5300 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 5650 5050 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 6300 4800 50  0001 C CNN "MPN"
+	1    6300 4800
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q13
+U 1 1 60DE2212
+P 6550 4650
+F 0 "Q13" H 6700 4650 50  0000 L CNN
+F 1 "NVS4409NT1G" H 6550 5150 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 6550 5600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 6550 4650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 6600 5500 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 6450 5300 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 6550 5400 50  0001 C CNN "MPN"
+	1    6550 4650
+	1    0    0    -1  
+$EndComp
+Text Label 5550 4400 2    50   ~ 0
+drain14
+Text Label 5300 4650 2    50   ~ 0
+gate14
+Wire Wire Line
+	5650 4400 5550 4400
+Wire Wire Line
+	5650 4450 5650 4400
+Connection ~ 5400 4650
+Wire Wire Line
+	5400 4650 5300 4650
+Connection ~ 5650 4950
+$Comp
+L power:GND #PWR017
+U 1 1 60DE2202
+P 5650 4950
+F 0 "#PWR017" H 5650 4700 50  0001 C CNN
+F 1 "GND" H 5655 4777 50  0000 C CNN
+F 2 "" H 5650 4950 50  0001 C CNN
+F 3 "" H 5650 4950 50  0001 C CNN
+	1    5650 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4950 5650 4850
+Wire Wire Line
+	5400 4950 5650 4950
+$Comp
+L personal:R_10K R10
+U 1 1 60DE21FA
+P 5400 4800
+F 0 "R10" V 5350 4950 50  0000 R CNN
+F 1 "R_10K" V 5450 5100 50  0000 R CNN
+F 2 "personal:R_0805" H 4600 4950 50  0001 C CNN
+F 3 "" H 5100 5300 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 4750 5050 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 5400 4800 50  0001 C CNN "MPN"
+	1    5400 4800
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q9
+U 1 1 60DE21F2
+P 5650 4650
+F 0 "Q9" H 5800 4650 50  0000 L CNN
+F 1 "NVS4409NT1G" H 5650 5150 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 5650 5600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 5650 4650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 5700 5500 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 5550 5300 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 5650 5400 50  0001 C CNN "MPN"
+	1    5650 4650
+	1    0    0    -1  
+$EndComp
+Text Label 4650 4400 2    50   ~ 0
+drain13
+Text Label 4400 4650 2    50   ~ 0
+gate13
+Wire Wire Line
+	4750 4400 4650 4400
+Wire Wire Line
+	4750 4450 4750 4400
+Connection ~ 4500 4650
+Wire Wire Line
+	4500 4650 4400 4650
+Connection ~ 4750 4950
+$Comp
+L power:GND #PWR010
+U 1 1 60DE21E2
+P 4750 4950
+F 0 "#PWR010" H 4750 4700 50  0001 C CNN
+F 1 "GND" H 4755 4777 50  0000 C CNN
+F 2 "" H 4750 4950 50  0001 C CNN
+F 3 "" H 4750 4950 50  0001 C CNN
+	1    4750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4950 4750 4850
+Wire Wire Line
+	4500 4950 4750 4950
+$Comp
+L personal:R_10K R5
+U 1 1 60DE21DA
+P 4500 4800
+F 0 "R5" V 4450 4950 50  0000 R CNN
+F 1 "R_10K" V 4550 5100 50  0000 R CNN
+F 2 "personal:R_0805" H 3700 4950 50  0001 C CNN
+F 3 "" H 4200 5300 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 3850 5050 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 4500 4800 50  0001 C CNN "MPN"
+	1    4500 4800
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q5
+U 1 1 60DE21D2
+P 4750 4650
+F 0 "Q5" H 4900 4650 50  0000 L CNN
+F 1 "NVS4409NT1G" H 4750 5150 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 4750 5600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 4750 4650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 4800 5500 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 4650 5300 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 4750 5400 50  0001 C CNN "MPN"
+	1    4750 4650
+	1    0    0    -1  
+$EndComp
+Text Label 3750 4400 2    50   ~ 0
+drain12
+Text Label 3500 4650 2    50   ~ 0
+gate12
+Wire Wire Line
+	3850 4400 3750 4400
+Wire Wire Line
+	3850 4450 3850 4400
+Connection ~ 3600 4650
+Wire Wire Line
+	3600 4650 3500 4650
+Connection ~ 3850 4950
+$Comp
+L power:GND #PWR05
+U 1 1 60DE21C2
+P 3850 4950
+F 0 "#PWR05" H 3850 4700 50  0001 C CNN
+F 1 "GND" H 3855 4777 50  0000 C CNN
+F 2 "" H 3850 4950 50  0001 C CNN
+F 3 "" H 3850 4950 50  0001 C CNN
+	1    3850 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4950 3850 4850
+Wire Wire Line
+	3600 4950 3850 4950
+$Comp
+L personal:R_10K R1
+U 1 1 60DE21BA
+P 3600 4800
+F 0 "R1" V 3550 4950 50  0000 R CNN
+F 1 "R_10K" V 3650 5100 50  0000 R CNN
+F 2 "personal:R_0805" H 2800 4950 50  0001 C CNN
+F 3 "" H 3300 5300 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 2950 5050 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 3600 4800 50  0001 C CNN "MPN"
+	1    3600 4800
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q1
+U 1 1 60DE21B2
+P 3850 4650
+F 0 "Q1" H 4000 4650 50  0000 L CNN
+F 1 "NVS4409NT1G" H 3850 5150 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 3850 5600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 3850 4650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 3900 5500 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 3750 5300 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 3850 5400 50  0001 C CNN "MPN"
+	1    3850 4650
+	1    0    0    -1  
+$EndComp
+Text Label 6450 5250 2    50   ~ 0
+drain11
+Text Label 6200 5500 2    50   ~ 0
+gate11
+Wire Wire Line
+	6550 5250 6450 5250
+Wire Wire Line
+	6550 5300 6550 5250
+Connection ~ 6300 5500
+Wire Wire Line
+	6300 5500 6200 5500
+Connection ~ 6550 5800
+$Comp
+L power:GND #PWR023
+U 1 1 60DE2182
+P 6550 5800
+F 0 "#PWR023" H 6550 5550 50  0001 C CNN
+F 1 "GND" H 6555 5627 50  0000 C CNN
+F 2 "" H 6550 5800 50  0001 C CNN
+F 3 "" H 6550 5800 50  0001 C CNN
+	1    6550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5800 6550 5700
+Wire Wire Line
+	6300 5800 6550 5800
+$Comp
+L personal:R_10K R15
+U 1 1 60DE217A
+P 6300 5650
+F 0 "R15" V 6250 5800 50  0000 R CNN
+F 1 "R_10K" V 6350 5950 50  0000 R CNN
+F 2 "personal:R_0805" H 5500 5800 50  0001 C CNN
+F 3 "" H 6000 6150 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 5650 5900 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 6300 5650 50  0001 C CNN "MPN"
+	1    6300 5650
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q14
+U 1 1 60DE2172
+P 6550 5500
+F 0 "Q14" H 6700 5500 50  0000 L CNN
+F 1 "NVS4409NT1G" H 6550 6000 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 6550 6450 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 6550 5500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 6600 6350 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 6450 6150 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 6550 6250 50  0001 C CNN "MPN"
+	1    6550 5500
+	1    0    0    -1  
+$EndComp
+Text Label 5550 5250 2    50   ~ 0
+drain10
+Text Label 5300 5500 2    50   ~ 0
+gate10
+Wire Wire Line
+	5650 5250 5550 5250
+Wire Wire Line
+	5650 5300 5650 5250
+Connection ~ 5400 5500
+Wire Wire Line
+	5400 5500 5300 5500
+Connection ~ 5650 5800
+$Comp
+L power:GND #PWR018
+U 1 1 60DE2162
+P 5650 5800
+F 0 "#PWR018" H 5650 5550 50  0001 C CNN
+F 1 "GND" H 5655 5627 50  0000 C CNN
+F 2 "" H 5650 5800 50  0001 C CNN
+F 3 "" H 5650 5800 50  0001 C CNN
+	1    5650 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5800 5650 5700
+Wire Wire Line
+	5400 5800 5650 5800
+$Comp
+L personal:R_10K R11
+U 1 1 60DE215A
+P 5400 5650
+F 0 "R11" V 5350 5800 50  0000 R CNN
+F 1 "R_10K" V 5450 5950 50  0000 R CNN
+F 2 "personal:R_0805" H 4600 5800 50  0001 C CNN
+F 3 "" H 5100 6150 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 4750 5900 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 5400 5650 50  0001 C CNN "MPN"
+	1    5400 5650
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q10
+U 1 1 60DE2152
+P 5650 5500
+F 0 "Q10" H 5800 5500 50  0000 L CNN
+F 1 "NVS4409NT1G" H 5650 6000 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 5650 6450 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 5650 5500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 5700 6350 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 5550 6150 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 5650 6250 50  0001 C CNN "MPN"
+	1    5650 5500
+	1    0    0    -1  
+$EndComp
+Text Label 4650 5250 2    50   ~ 0
+drain9
+Text Label 4400 5500 2    50   ~ 0
+gate9
+Wire Wire Line
+	4750 5250 4650 5250
+Wire Wire Line
+	4750 5300 4750 5250
+Connection ~ 4500 5500
+Wire Wire Line
+	4500 5500 4400 5500
+Connection ~ 4750 5800
+$Comp
+L power:GND #PWR011
+U 1 1 60DE2142
+P 4750 5800
+F 0 "#PWR011" H 4750 5550 50  0001 C CNN
+F 1 "GND" H 4755 5627 50  0000 C CNN
+F 2 "" H 4750 5800 50  0001 C CNN
+F 3 "" H 4750 5800 50  0001 C CNN
+	1    4750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5800 4750 5700
+Wire Wire Line
+	4500 5800 4750 5800
+$Comp
+L personal:R_10K R6
+U 1 1 60DE213A
+P 4500 5650
+F 0 "R6" V 4450 5800 50  0000 R CNN
+F 1 "R_10K" V 4550 5950 50  0000 R CNN
+F 2 "personal:R_0805" H 3700 5800 50  0001 C CNN
+F 3 "" H 4200 6150 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 3850 5900 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 4500 5650 50  0001 C CNN "MPN"
+	1    4500 5650
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q6
+U 1 1 60DE2132
+P 4750 5500
+F 0 "Q6" H 4900 5500 50  0000 L CNN
+F 1 "NVS4409NT1G" H 4750 6000 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 4750 6450 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 4750 5500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 4800 6350 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 4650 6150 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 4750 6250 50  0001 C CNN "MPN"
+	1    4750 5500
+	1    0    0    -1  
+$EndComp
+Text Label 6450 6950 2    50   ~ 0
+drain3
+Text Label 6200 7200 2    50   ~ 0
+gate3
+Wire Wire Line
+	6550 6950 6450 6950
+Wire Wire Line
+	6550 7000 6550 6950
+$Comp
+L power:GND #PWR025
+U 1 1 60DBDD5C
+P 6550 7500
+F 0 "#PWR025" H 6550 7250 50  0001 C CNN
+F 1 "GND" H 6555 7327 50  0000 C CNN
+F 2 "" H 6550 7500 50  0001 C CNN
+F 3 "" H 6550 7500 50  0001 C CNN
+	1    6550 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 7500 6550 7400
+$Comp
+L personal:R_10K R17
+U 1 1 60DBDD54
+P 6300 7350
+F 0 "R17" V 6250 7500 50  0000 R CNN
+F 1 "R_10K" V 6350 7650 50  0000 R CNN
+F 2 "personal:R_0805" H 5500 7500 50  0001 C CNN
+F 3 "" H 6000 7850 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 5650 7600 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 6300 7350 50  0001 C CNN "MPN"
+	1    6300 7350
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q16
+U 1 1 60DBDD4C
+P 6550 7200
+F 0 "Q16" H 6700 7200 50  0000 L CNN
+F 1 "NVS4409NT1G" H 6550 7700 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 6550 8150 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 6550 7200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 6600 8050 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 6450 7850 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 6550 7950 50  0001 C CNN "MPN"
+	1    6550 7200
+	1    0    0    -1  
+$EndComp
+Text Label 5550 6950 2    50   ~ 0
+drain2
+Text Label 5300 7200 2    50   ~ 0
+gate2
+Wire Wire Line
+	5650 6950 5550 6950
+Wire Wire Line
+	5650 7000 5650 6950
+Connection ~ 5400 7200
+Wire Wire Line
+	5400 7200 5300 7200
+Connection ~ 5650 7500
+$Comp
+L power:GND #PWR020
+U 1 1 60DBBE6F
+P 5650 7500
+F 0 "#PWR020" H 5650 7250 50  0001 C CNN
+F 1 "GND" H 5655 7327 50  0000 C CNN
+F 2 "" H 5650 7500 50  0001 C CNN
+F 3 "" H 5650 7500 50  0001 C CNN
+	1    5650 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 7500 5650 7400
+Wire Wire Line
+	5400 7500 5650 7500
+$Comp
+L personal:R_10K R13
+U 1 1 60DBBE67
+P 5400 7350
+F 0 "R13" V 5350 7500 50  0000 R CNN
+F 1 "R_10K" V 5450 7650 50  0000 R CNN
+F 2 "personal:R_0805" H 4600 7500 50  0001 C CNN
+F 3 "" H 5100 7850 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 4750 7600 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 5400 7350 50  0001 C CNN "MPN"
+	1    5400 7350
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q12
+U 1 1 60DBBE5F
+P 5650 7200
+F 0 "Q12" H 5800 7200 50  0000 L CNN
+F 1 "NVS4409NT1G" H 5650 7700 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 5650 8150 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 5650 7200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 5700 8050 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 5550 7850 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 5650 7950 50  0001 C CNN "MPN"
+	1    5650 7200
+	1    0    0    -1  
+$EndComp
+Text Label 4650 6950 2    50   ~ 0
+drain1
+Text Label 4400 7200 2    50   ~ 0
+gate1
+Wire Wire Line
+	4750 6950 4650 6950
+Wire Wire Line
+	4750 7000 4750 6950
+Connection ~ 4500 7200
+Wire Wire Line
+	4500 7200 4400 7200
+Connection ~ 4750 7500
+$Comp
+L power:GND #PWR013
+U 1 1 60DBA452
+P 4750 7500
+F 0 "#PWR013" H 4750 7250 50  0001 C CNN
+F 1 "GND" H 4755 7327 50  0000 C CNN
+F 2 "" H 4750 7500 50  0001 C CNN
+F 3 "" H 4750 7500 50  0001 C CNN
+	1    4750 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 7500 4750 7400
+Wire Wire Line
+	4500 7500 4750 7500
+$Comp
+L personal:R_10K R8
+U 1 1 60DBA44A
+P 4500 7350
+F 0 "R8" V 4450 7500 50  0000 R CNN
+F 1 "R_10K" V 4550 7650 50  0000 R CNN
+F 2 "personal:R_0805" H 3700 7500 50  0001 C CNN
+F 3 "" H 4200 7850 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 3850 7600 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 4500 7350 50  0001 C CNN "MPN"
+	1    4500 7350
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q8
+U 1 1 60DBA442
+P 4750 7200
+F 0 "Q8" H 4900 7200 50  0000 L CNN
+F 1 "NVS4409NT1G" H 4750 7700 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 4750 8150 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 4750 7200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 4800 8050 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 4650 7850 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 4750 7950 50  0001 C CNN "MPN"
+	1    4750 7200
+	1    0    0    -1  
+$EndComp
+Text Label 3750 6950 2    50   ~ 0
+drain0
+Text Label 3500 7200 2    50   ~ 0
+gate0
+Wire Wire Line
+	3850 6950 3750 6950
+Wire Wire Line
+	3850 7000 3850 6950
+Connection ~ 3600 7200
+Wire Wire Line
+	3600 7200 3500 7200
+Connection ~ 3850 7500
+$Comp
+L power:GND #PWR08
+U 1 1 60DB65CF
+P 3850 7500
+F 0 "#PWR08" H 3850 7250 50  0001 C CNN
+F 1 "GND" H 3855 7327 50  0000 C CNN
+F 2 "" H 3850 7500 50  0001 C CNN
+F 3 "" H 3850 7500 50  0001 C CNN
+	1    3850 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 7500 3850 7400
+Wire Wire Line
+	3600 7500 3850 7500
+$Comp
+L personal:R_10K R4
+U 1 1 60DB4422
+P 3600 7350
+F 0 "R4" V 3550 7500 50  0000 R CNN
+F 1 "R_10K" V 3650 7650 50  0000 R CNN
+F 2 "personal:R_0805" H 2800 7500 50  0001 C CNN
+F 3 "" H 3300 7850 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 2950 7600 60  0001 C CNN "DPN"
+F 5 "RC0805FR-0710KL" H 3600 7350 50  0001 C CNN "MPN"
+	1    3600 7350
+	0    -1   1    0   
+$EndComp
+$Comp
+L personal:NVS4409NT1G Q4
+U 1 1 60DB38DB
+P 3850 7200
+F 0 "Q4" H 4000 7200 50  0000 L CNN
+F 1 "NVS4409NT1G" H 3850 7700 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 3850 8150 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf" H 3850 7200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/on-semiconductor/NVS4409NT1G/4848979" H 3900 8050 50  0001 C CNN "Purchasing Link"
+F 5 "NVS4409NT1GOSCT-ND" H 3750 7850 50  0001 C CNN "DPN"
+F 6 "NVS4409NT1G" H 3850 7950 50  0001 C CNN "MPN"
+	1    3850 7200
+	1    0    0    -1  
+$EndComp
+Text Label 7800 3350 2    50   ~ 0
+gate1
+Text Label 7800 3450 2    50   ~ 0
+gate2
+Text Label 7800 3550 2    50   ~ 0
+gate3
+Text Label 7800 3650 2    50   ~ 0
+gate4
+Text Label 7800 3750 2    50   ~ 0
+gate5
+Text Label 7800 3850 2    50   ~ 0
+gate6
+Text Label 7800 3950 2    50   ~ 0
+gate7
+Text Label 7800 2850 2    50   ~ 0
+gate8
+Text Label 7800 2950 2    50   ~ 0
+gate9
+Text Label 7800 2650 2    50   ~ 0
+gate10
+Text Label 7800 2750 2    50   ~ 0
+gate11
+Text Label 7800 2450 2    50   ~ 0
+gate12
+Text Label 7800 2550 2    50   ~ 0
+gate13
+Text Label 7800 1550 2    50   ~ 0
+gate14
+Text Label 7800 1650 2    50   ~ 0
+gate15
+Text Notes 4450 4200 0    50   ~ 0
+LED DRIVER TRANSISTORS
+Text Label 1400 2600 0    50   ~ 0
+drain0
+Text Label 1400 2800 0    50   ~ 0
+drain1
+Text Label 1400 3250 0    50   ~ 0
+drain2
+Text Label 1400 3900 0    50   ~ 0
+drain4
+Wire Wire Line
+	1400 2500 1750 2500
+Wire Wire Line
+	1400 2700 1750 2700
+Wire Wire Line
+	1750 2700 1750 2500
+Text Label 1400 4100 0    50   ~ 0
+drain5
+Text Label 1400 4550 0    50   ~ 0
+drain6
+Text Label 1400 4750 0    50   ~ 0
+drain7
+Text Label 1400 5300 0    50   ~ 0
+drain8
+Text Label 1400 5500 0    50   ~ 0
+drain9
+Text Label 1400 5950 0    50   ~ 0
+drain10
+Text Label 1400 6150 0    50   ~ 0
+drain11
+Text Label 1400 6600 0    50   ~ 0
+drain12
+Text Label 1400 6800 0    50   ~ 0
+drain13
+Text Label 1400 7250 0    50   ~ 0
+drain14
+Text Label 1400 7450 0    50   ~ 0
+drain15
+Text Label 1850 2500 0    50   ~ 0
+12V
+Wire Wire Line
+	1850 2500 1750 2500
+Connection ~ 1750 2500
+$Comp
+L personal:LED_GREEN D1
+U 1 1 60F5090E
+P 4950 3150
+F 0 "D1" H 4957 2934 50  0000 C CNN
+F 1 "LED_GREEN" H 4957 3025 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 5000 2950 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kingbright/APTD1608CGCK/754-1545-1-ND/2514673" H 4950 3150 50  0001 C CNN
+F 4 "754-1545-1-ND" H 4950 2900 50  0001 C CNN "DPN"
+	1    4950 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 60F52198
+P 4950 3400
+F 0 "#PWR015" H 4950 3150 50  0001 C CNN
+F 1 "GND" V 4955 3272 50  0000 R CNN
+F 2 "" H 4950 3400 50  0001 C CNN
+F 3 "" H 4950 3400 50  0001 C CNN
+	1    4950 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3400 4950 3300
+$Comp
+L personal:R_120 R9
+U 1 1 60F62262
+P 4950 2850
+F 0 "R9" H 4950 3057 50  0000 C CNN
+F 1 "R_120" H 4950 2966 50  0000 C CNN
+F 2 "personal:R_0805" H 4150 3000 50  0001 C CNN
+F 3 "" H 4650 3350 50  0001 C CNN
+F 4 "A129738CT-ND" H 4300 3100 60  0001 C CNN "DPN"
+	1    4950 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 2700 4950 2600
+Wire Wire Line
+	4950 2600 4900 2600
+Text Label 7800 1750 2    50   ~ 0
+LED
+Text Label 4900 2600 2    50   ~ 0
+LED
+Text Notes 4500 2400 0    50   ~ 0
+PROGRAMMABLE LED
+Wire Wire Line
+	8350 1100 8350 1250
+Connection ~ 8350 1100
+Text Notes 8050 750  0    50   ~ 0
+MICRO-CONTROLLER
+$Comp
+L personal:Barrel_Jack_Mounting J9
+U 1 1 61052848
+P 1150 1300
+F 0 "J9" H 1207 1525 50  0000 C CNN
+F 1 "Barrel_Jack_Mounting" H 550 1500 50  0001 L CNN
+F 2 "personal:barrel_jack_mounting" H 1200 1260 50  0001 C CNN
+F 3 "http://www.kycon.com/2013Catalogpage/DC%20Power/KLDX_0202_LT.pdf" H 1200 1260 50  0001 C CNN
+F 4 "2092-KLDX-0202-A-ND" H 1200 2300 50  0001 C CNN "DPN"
+F 5 "KLDX-0202-A" H 1150 2200 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/kycon-inc/KLDX-0202-A/9975992" H 1000 2400 50  0001 C CNN "PurchasingLink"
+	1    1150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 610534B0
+P 1150 1600
+F 0 "#PWR01" H 1150 1350 50  0001 C CNN
+F 1 "GND" H 1155 1427 50  0000 C CNN
+F 2 "" H 1150 1600 50  0001 C CNN
+F 3 "" H 1150 1600 50  0001 C CNN
+	1    1150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 61053A1E
+P 1450 1400
+F 0 "#PWR02" H 1450 1150 50  0001 C CNN
+F 1 "GND" H 1455 1227 50  0000 C CNN
+F 2 "" H 1450 1400 50  0001 C CNN
+F 3 "" H 1450 1400 50  0001 C CNN
+	1    1450 1400
+	1    0    0    -1  
+$EndComp
+Text Label 1450 1200 0    50   ~ 0
+12V
+Text Notes 900  1000 0    50   ~ 0
+BARREL JACK
+$Comp
+L personal:ATmega328P-PU U2
+U 1 1 6106DF39
+P 8400 2750
+F 0 "U2" H 7756 2796 50  0000 R CNN
+F 1 "ATmega328P-PU" H 7756 2705 50  0000 R CNN
+F 2 "Housings_DIP:DIP-28_W7.62mm" H 8450 5550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 8400 2750 50  0001 C CNN
+F 4 "ATMEGA328-PU-ND" H 8400 5450 50  0001 C CNN "DPN"
+F 5 "ATMEGA328-PU" H 8400 5300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA328-PU/2271026" H 8450 5700 50  0001 C CNN "PurchasingLink"
+	1    8400 2750
+	-1   0    0    -1  
+$EndComp
+Text Notes 800  2100 0    50   ~ 0
+SCREW TERMINALS
+$Comp
+L personal:EBBA-04-C-SS-BU J1
+U 1 1 610AFE5D
+P 1200 2550
+F 0 "J1" H 950 2650 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 2781 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 2950 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 2600 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 3200 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 3300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 3050 50  0001 C CNN "Purchasing Link"
+	1    1200 2550
+	1    0    0    -1  
+$EndComp
+Text Label 1400 3450 0    50   ~ 0
+drain3
+$Comp
+L personal:EBBA-04-C-SS-BU J2
+U 1 1 610B15B2
+P 1200 3200
+F 0 "J2" H 950 3300 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 3431 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 3600 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 3250 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 3850 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 3950 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 3700 50  0001 C CNN "Purchasing Link"
+	1    1200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3150 1750 3150
+Wire Wire Line
+	1400 3350 1750 3350
+Wire Wire Line
+	1750 3350 1750 3150
+Text Label 1850 3150 0    50   ~ 0
+12V
+Wire Wire Line
+	1850 3150 1750 3150
+Connection ~ 1750 3150
+$Comp
+L personal:EBBA-04-C-SS-BU J3
+U 1 1 610B9CF9
+P 1200 3850
+F 0 "J3" H 950 3950 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 4081 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 4250 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 3900 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 4500 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 4600 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 4350 50  0001 C CNN "Purchasing Link"
+	1    1200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3800 1750 3800
+Wire Wire Line
+	1400 4000 1750 4000
+Wire Wire Line
+	1750 4000 1750 3800
+Text Label 1850 3800 0    50   ~ 0
+12V
+Wire Wire Line
+	1850 3800 1750 3800
+Connection ~ 1750 3800
+$Comp
+L personal:EBBA-04-C-SS-BU J4
+U 1 1 610D3452
+P 1200 4500
+F 0 "J4" H 950 4600 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 4731 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 4900 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 4550 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 5150 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 5250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 5000 50  0001 C CNN "Purchasing Link"
+	1    1200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4450 1750 4450
+Wire Wire Line
+	1400 4650 1750 4650
+Wire Wire Line
+	1750 4650 1750 4450
+Text Label 1850 4450 0    50   ~ 0
+12V
+Wire Wire Line
+	1850 4450 1750 4450
+Connection ~ 1750 4450
+$Comp
+L personal:EBBA-04-C-SS-BU J5
+U 1 1 610D9807
+P 1200 5350
+F 0 "J5" H 950 5450 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 5581 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 5750 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 5400 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 6000 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 6100 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 5850 50  0001 C CNN "Purchasing Link"
+	1    1200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5400 1750 5400
+Wire Wire Line
+	1400 5600 1750 5600
+Wire Wire Line
+	1750 5600 1750 5400
+Text Label 1850 5400 0    50   ~ 0
+12V
+Wire Wire Line
+	1850 5400 1750 5400
+Connection ~ 1750 5400
+$Comp
+L personal:EBBA-04-C-SS-BU J6
+U 1 1 610E52EA
+P 1200 6000
+F 0 "J6" H 950 6100 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 6231 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 6400 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 6050 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 6650 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 6750 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 6500 50  0001 C CNN "Purchasing Link"
+	1    1200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6050 1750 6050
+Wire Wire Line
+	1400 6250 1750 6250
+Wire Wire Line
+	1750 6250 1750 6050
+Text Label 1850 6050 0    50   ~ 0
+12V
+Wire Wire Line
+	1850 6050 1750 6050
+Connection ~ 1750 6050
+$Comp
+L personal:EBBA-04-C-SS-BU J7
+U 1 1 610F2479
+P 1200 6650
+F 0 "J7" H 950 6750 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 6881 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 7050 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 6700 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 7300 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 7400 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 7150 50  0001 C CNN "Purchasing Link"
+	1    1200 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6700 1750 6700
+Wire Wire Line
+	1400 6900 1750 6900
+Wire Wire Line
+	1750 6900 1750 6700
+Text Label 1850 6700 0    50   ~ 0
+12V
+Wire Wire Line
+	1850 6700 1750 6700
+Connection ~ 1750 6700
+$Comp
+L personal:EBBA-04-C-SS-BU J8
+U 1 1 611177D9
+P 1200 7300
+F 0 "J8" H 950 7400 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 7531 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 7700 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 7350 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 7950 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 8050 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 7800 50  0001 C CNN "Purchasing Link"
+	1    1200 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 7350 1750 7350
+Wire Wire Line
+	1400 7550 1750 7550
+Wire Wire Line
+	1750 7550 1750 7350
+Text Label 1850 7350 0    50   ~ 0
+12V
+Wire Wire Line
+	1850 7350 1750 7350
+Connection ~ 1750 7350
+Wire Wire Line
+	6300 7500 6550 7500
+Connection ~ 6550 7500
+Wire Wire Line
+	6200 7200 6300 7200
+Connection ~ 6300 7200
+$EndSCHEMATC
