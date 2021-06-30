@@ -122,7 +122,7 @@ F 0 "C3" V 7100 2000 50  0000 C CNN
 F 1 "C_10p" V 7000 2000 50  0000 C CNN
 F 2 "personal:C_0805" H 6900 2500 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012007010.pdf" H 6875 2100 50  0001 C CNN
-F 4 "399-7994-1-ND" H 6950 2700 60  0001 C CNN "DPN"
+F 4 "732-7814-1-ND" H 6950 2700 60  0001 C CNN "DPN"
 F 5 "885012007010" H 6950 2600 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012007010/5453669" H 6800 2800 50  0001 C CNN "PurchasingLink"
 	1    6850 2000
@@ -143,7 +143,7 @@ F 0 "C4" V 6600 2450 50  0000 C CNN
 F 1 "C_10p" V 6700 2500 50  0000 C CNN
 F 2 "personal:C_0805" H 6900 2900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012007010.pdf" H 6875 2500 50  0001 C CNN
-F 4 "399-7994-1-ND" H 6950 3100 60  0001 C CNN "DPN"
+F 4 "732-7814-1-ND" H 6950 3100 60  0001 C CNN "DPN"
 F 5 "885012007010" H 6950 3000 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012007010/5453669" H 6800 3200 50  0001 C CNN "PurchasingLink"
 	1    6850 2400
@@ -1375,45 +1375,20 @@ Connection ~ 8350 1100
 Text Notes 8050 750  0    50   ~ 0
 MICRO-CONTROLLER
 $Comp
-L personal:Barrel_Jack_Mounting J9
-U 1 1 61052848
-P 1150 1300
-F 0 "J9" H 1207 1525 50  0000 C CNN
-F 1 "Barrel_Jack_Mounting" H 550 1500 50  0001 L CNN
-F 2 "personal:barrel_jack_mounting" H 1200 1260 50  0001 C CNN
-F 3 "http://www.kycon.com/2013Catalogpage/DC%20Power/KLDX_0202_LT.pdf" H 1200 1260 50  0001 C CNN
-F 4 "2092-KLDX-0202-A-ND" H 1200 2300 50  0001 C CNN "DPN"
-F 5 "KLDX-0202-A" H 1150 2200 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/en/products/detail/kycon-inc/KLDX-0202-A/9975992" H 1000 2400 50  0001 C CNN "PurchasingLink"
-	1    1150 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 610534B0
-P 1150 1600
-F 0 "#PWR01" H 1150 1350 50  0001 C CNN
-F 1 "GND" H 1155 1427 50  0000 C CNN
-F 2 "" H 1150 1600 50  0001 C CNN
-F 3 "" H 1150 1600 50  0001 C CNN
-	1    1150 1600
+P 1600 1450
+F 0 "#PWR01" H 1600 1200 50  0001 C CNN
+F 1 "GND" H 1605 1277 50  0000 C CNN
+F 2 "" H 1600 1450 50  0001 C CNN
+F 3 "" H 1600 1450 50  0001 C CNN
+	1    1600 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 61053A1E
-P 1450 1400
-F 0 "#PWR02" H 1450 1150 50  0001 C CNN
-F 1 "GND" H 1455 1227 50  0000 C CNN
-F 2 "" H 1450 1400 50  0001 C CNN
-F 3 "" H 1450 1400 50  0001 C CNN
-	1    1450 1400
-	1    0    0    -1  
-$EndComp
-Text Label 1450 1200 0    50   ~ 0
+Text Label 1400 1150 0    50   ~ 0
 12V
-Text Notes 900  1000 0    50   ~ 0
-BARREL JACK
+Text Notes 950  800  0    50   ~ 0
+POWER
 $Comp
 L personal:ATmega328P-PU U2
 U 1 1 6106DF39
@@ -1627,4 +1602,29 @@ Connection ~ 6550 7500
 Wire Wire Line
 	6200 7200 6300 7200
 Connection ~ 6300 7200
+$Comp
+L personal:EBBA-04-C-SS-BU J9
+U 1 1 60DBFD81
+P 1200 1200
+F 0 "J9" H 950 1300 60  0000 C CNN
+F 1 "EBBA-04-C-SS-BU" H 1158 1431 60  0000 C CNN
+F 2 "personal:EBBA-04-C-SS-BU" H 1150 1600 60  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/204166/ebba-04-c-ss-bu-data-sheet.pdf" H 1400 1250 60  0001 C CNN
+F 4 "2057-EBBA-04-C-SS-BU-ND" H 1050 1850 50  0001 C CNN "DPN"
+F 5 "EBBA-04-C-SS-BU" H 1100 1950 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/adam-tech/EBBA-04-C-SS-BU/9830523" H 1100 1700 50  0001 C CNN "Purchasing Link"
+	1    1200 1200
+	1    0    0    -1  
+$EndComp
+Text Label 1400 1450 0    50   ~ 0
+12V
+Wire Wire Line
+	1400 1250 1600 1250
+Wire Wire Line
+	1600 1250 1600 1350
+Wire Wire Line
+	1400 1350 1600 1350
+Connection ~ 1600 1350
+Wire Wire Line
+	1600 1350 1600 1450
 $EndSCHEMATC

@@ -48,34 +48,6 @@ X XTAL1/PB6 9 600 600 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# personal_Barrel_Jack_Mounting
-#
-DEF personal_Barrel_Jack_Mounting J 0 20 Y N 1 F N
-F0 "J" 0 0 50 H V C CNN
-F1 "personal_Barrel_Jack_Mounting" -600 200 50 H I L CNN
-F2 "personal:barrel_jack_mounting" 50 -40 50 H I C CNN
-F3 "" 50 -40 50 H I C CNN
-F4 "2092-KLDX-0202-A-ND" 50 1000 50 H I C CNN "DPN"
-F5 "KLDX-0202-A" 0 900 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/kycon-inc/KLDX-0202-A/9975992" -150 1100 50 H I C CNN "PurchasingLink"
-$FPLIST
- BarrelJack*
-$ENDFPLIST
-DRAW
-A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
-A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
-T 0 0 -165 15 0 1 1 Mounting Normal 0 C C
-S -200 150 200 -150 0 1 10 f
-S 145 125 -130 75 0 1 10 F
-P 2 0 1 10 200 100 150 100 N
-P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
-P 2 1 1 6 -40 -180 40 -180 N
-X ~ 1 300 100 100 L 50 50 1 1 P
-X ~ 2 300 -100 100 L 50 50 1 1 P
-X MountPin 3 0 -300 120 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # personal_C_0u1
 #
 DEF personal_C_0u1 C 0 10 N Y 1 F N
@@ -131,7 +103,7 @@ F0 "C" 25 100 50 H V L CNN
 F1 "personal_C_10p" 25 -100 50 H V L CNN
 F2 "personal:C_0805" 50 500 50 H I C CNN
 F3 "" 25 100 50 H I C CNN
-F4 "399-7994-1-ND" 100 700 60 H I C CNN "DPN"
+F4 "732-7814-1-ND" 100 700 60 H I C CNN "DPN"
 F5 "885012007010" 100 600 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/885012007010/5453669" -50 800 50 H I C CNN "PurchasingLink"
 $FPLIST
